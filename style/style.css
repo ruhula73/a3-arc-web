@@ -70,7 +70,6 @@ nav li a{
 
 
 /* responsive style */
-
 /* responsive style for mobile */
 /* for header part */
 @media screen and (max-width: 576px) {
@@ -112,4 +111,15 @@ nav li a{
   nav{
     flex-direction: column;
   } 
+}
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.teams-container{
+  display: flex;
+}
+.teams-img-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
